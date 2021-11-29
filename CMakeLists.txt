@@ -3,12 +3,17 @@ project(beginner_tutorials)
 
 ## Find catkin and any catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  actionlib
+  actionlib_msgs
+  geometry_msgs
+  move_base
+  move_base_msgs
   roscpp
   rospy
+  sensor_msgs
   std_msgs
-  message_generation
-  roslaunch
   tf
+  message_generation
 )
 
 add_service_files(
