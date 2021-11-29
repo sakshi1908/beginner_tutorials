@@ -17,8 +17,8 @@ cache:
 language: cpp
 matrix:
   include:
-  - name: "Xenial melodic"
-    dist: xenial
+  - name: "trusty melodic"
+    dist: trusty
     env: ROS_DISTRO=melodic
 
 env:
