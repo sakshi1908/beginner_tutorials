@@ -47,7 +47,7 @@ cache:
 language: generic
 matrix:
   include:
-  - name: "Bionic melodic"
+  - name: "bionic melodic"
     dist: bionic
     env: ROS_DISTRO=melodic
 
