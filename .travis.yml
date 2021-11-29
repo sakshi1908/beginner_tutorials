@@ -81,7 +81,7 @@ before_install:
   - sudo rosdep init
   - rosdep update --include-eol-distros  # Support EOL distros.
   - sudo apt-get install ros-melodic-actionlib*
-  - sudo apt-get install ros-move-base-msgs
+  - sudo apt-get install ros-melodic-move-base*
 
 # Create a catkin workspace with the package under integration.
 install:
